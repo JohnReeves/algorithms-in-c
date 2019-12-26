@@ -1,11 +1,10 @@
-echo Hello John
-echo
-
+echo 
+echo '####################'
 cal
-date
-
+echo '####################'
+date +'%d/%m/%Y %H:%M:%S'
+echo '####################'
 echo
-
 
 # gcc -o sample sample.c
 # including any other gcc flags you like
@@ -13,6 +12,8 @@ echo
 
 gcd=$PWD/"01 Fundamentals/02 C"
 echo "building: "$gcd
+echo "output files in ./Results"
+echo
 
 gcc "$gcd/"gcd.c -o ./Results/gcd
 ./Results/gcd
