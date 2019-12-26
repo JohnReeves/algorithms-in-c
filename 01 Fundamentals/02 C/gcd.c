@@ -10,15 +10,16 @@ int gcd(int u, int v){
    return v;
 }
 
-int main() {
-   // learn the build cylce
-   printf("Hello, GCD fans!\n\n");
-
+int main(){
    int x, y;
-   printf("type a pair of numbers: ");
+
+   printf("Hello, GCD fans!\n\n");
+   printf("type pairs of numbers; \n");
+   printf("^C or 'stop' to stop \n");
+
    while (scanf("%d %d", &x, &y) != EOF)
       if (x>0 && y>0)
-         printf("gcd of %d and %d is %d\n", x, y, gcd(x, y));
+         printf("gcd of %d & %d is %d\n", x, y, gcd(x, y));
    return 0;
 }
 
