@@ -1,3 +1,10 @@
+/************************
+   build with:
+     gcc gcd.c -o gcd
+   run with:
+     ./gcd
+*************************/
+
 #include <stdio.h>
 
 int gcd(int u, int v){

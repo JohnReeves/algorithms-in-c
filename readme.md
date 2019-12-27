@@ -2,17 +2,18 @@
 
 `NB:` repl.it has a bug that erases any templated folders.
 
-* `run` executes main.sh;   
-* `gcc sample.c -o sample` builds your code; or   
-* modify `main.sh` to build & add linux features.   
+* use `run` to execute main.sh;   
+* modify `main.sh` to build & add linux features; or    
+* use `gcc sample.c -o sample` to build your code.    
+* navigate to `cd ./Results` and run with `./sample`    
 
 Section / Title | Progress | Results
 ---|---|---
 *'01 Fundamentals'* | WIP |
 '01 Introduction' | Complete | `hello.c`
 '02 C' | Complete  | `gcd.c`
-'03 Elementary Data Structures' | WIP  
-'04 Trees' | Not Started  
+'03 Elementary Data Structures' | Complete | `sieve.c`  
+'04 Trees' | WIP  
 '05 Recursion'| Not Started  
 '06 Analysis of Algorithms'| Not Started  
 '07 Implementation of Algorithms' | Not Started  

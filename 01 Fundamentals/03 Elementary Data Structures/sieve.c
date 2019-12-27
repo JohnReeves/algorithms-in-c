@@ -1,3 +1,10 @@
+/************************
+   build with:
+     gcc sieve.c -o sieve
+   run with:
+     ./sieve
+*************************/
+
 #include <stdio.h>
 
 #define N 2000
