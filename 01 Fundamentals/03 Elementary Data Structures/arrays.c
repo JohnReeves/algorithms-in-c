@@ -5,6 +5,7 @@
 int main() {
    // learn the build cylce
    printf("Hello, World!\n\n");
+   printf("This is the bloomin' Sieve of Erastosthenes!\n\n");
 
    int i, j, a[N+1];
 
