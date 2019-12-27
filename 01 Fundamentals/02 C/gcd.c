@@ -12,7 +12,9 @@ int gcd(int u, int v){
 
    while (u > 0){
      // swap
-     if (u < v) { t = u; u = v; v = t; }
+     if (u < v) { 
+       t = u; u = v; v = t; 
+     }
      u = u-v;
    }
    return v;

@@ -5,7 +5,7 @@
 * use `run` to execute main.sh;   
 * modify `main.sh` to build & add linux features; or    
 * use `gcc sample.c -o sample` to build your code.    
-* navigate to `cd ./Results` and run with `./sample`    
+* type `./Results/sample` to run your code.    
 
 Section / Title | Progress | Results
 ---|---|---
