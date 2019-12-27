@@ -19,7 +19,7 @@ int main() {
   // and the actual character
   while (scanf("%c", &c) != EOF)
     if (c != '\n')
-      printf("ASCII value of %c = %x\nanother character (or ^C): ", c, c);
+      printf("ASCII value of %c = %d\nanother character (or ^C): ", c, c);
 
   return 0;
 }

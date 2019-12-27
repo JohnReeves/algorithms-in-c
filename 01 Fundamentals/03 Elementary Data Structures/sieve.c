@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-#define N 1000
+#define N 2000
 
 int main() {
    // learn the build cylce
-   printf("Hello, World!\n\n");
+   printf("Hello, Human!\n\n");
    printf("This is the bloomin' Sieve of Erastosthenes!\n\n");
 
    int i, j, a[N+1];
@@ -16,7 +16,7 @@ int main() {
      }
    }
    for (i=1; i<=N; i++){
-     if (a[i]) printf("%4d", i);
+     if (a[i]) printf("%d ", i);
    }
    printf("\n");
    return 0;

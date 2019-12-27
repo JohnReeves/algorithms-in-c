@@ -4,6 +4,7 @@ int gcd(int u, int v){
    int t;
 
    while (u > 0){
+     // swap
      if (u < v) { t = u; u = v; v = t; }
      u = u-v;
    }
