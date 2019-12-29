@@ -1,4 +1,11 @@
-## Sieve of Erastosthenes 
+
+# Elementary Data Structures
+
+* `Arrays` using the Sieve of Erastosthenes .  
+* `Linked Lists` using a Pushdown Stack .  
+* `Abstract Data Types` using, well, nothing .  
+
+## 1. Sieve of Erastosthenes 
 
 Method to find the prime numbers up to a value
 
@@ -28,26 +35,51 @@ int main() {
    return 0;
 }
 ```
-`NB:` The brackets are included for my ease of reading; and you can add any printf formatting to make the output more interesting
+`NB:` 
+* brackets are included for ease of reading;    
+* add printf statements to make the output more interesting .  
 
-#### Build with   
-
-```bash
-gcc sieve.c -o ./Results/sieve
-```
-
-#### Run with   
+#### Build & Run with   
 
 ```bash
-./Results/sieve
-```
+>> gcc sieve.c -o ./Results/sieve
+>> ./Results/sieve
 
-#### Produces
-```
 2 3 5 7 
 11 13 17 19 
 23 29 
 31 37 
 ...
+
 ```
 
+## 2. Pushdown Stack 
+
+Implementation of a stack using a linked list
+
+#### Yet another bloomin' Stack!
+
+1. Create a `struct` with pointers to the head & tail
+2. initialise the head & tail pointers    
+3. add push, pop & evaluation functionality
+
+```c
+#include <stdio.h>
+
+int main() {
+   printf("Hello Mate!");
+   return 0;
+}
+```
+`NB:` 
+*    
+
+#### Build & Run with   
+
+```bash
+>> gcc stack.c -o ./Results/stack
+>> ./Results/stack
+
+...
+
+```
