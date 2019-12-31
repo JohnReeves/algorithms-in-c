@@ -53,7 +53,38 @@ int main() {
 
 ```
 
-## 2. Pushdown Stack 
+## 2. Linked list 
+
+Implementation of the linked list
+
+#### Yet another bloomin' Linked List!
+
+1. Create a `struct` with pointers to the head & tail
+2. initialise the head & tail pointers    
+3. add init, create & delete node, & evaluation functionality
+
+```c
+#include <stdio.h>
+
+int main() {
+   printf("Hello Mate!");
+   return 0;
+}
+```
+`NB:` 
+*    
+
+#### Build & Run with   
+
+```bash
+>> gcc list.c -o ./Results/list
+>> ./Results/list
+
+...
+
+```
+
+## 3. Pushdown Stack 
 
 Implementation of a stack using a linked list
 
